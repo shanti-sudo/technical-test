@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <section>
+      <h1>API Gene-Suggest</h1>
+      <hr class="divider"/>
+      <form action="/gene-suggest" method="GET">
+        <div>
+          <label class="field-label">Query</label>
+          <input class="field-text js-field" type="text" name="query" required><br>
+          <label class="field-label">Species</label>
+          <input class="field-text js-field" type="text" name="species" required><br>
+          <label class="field-label">maxResult</label>
+          <input class="field-text" type="number" name="max" min=1 required><br>
+          <p><input type="submit" value="Submit"/></p>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>

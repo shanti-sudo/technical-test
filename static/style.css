@@ -1,0 +1,22 @@
+h1 {
+  font-family: serif;
+  color: #377ba8;
+  margin: 1rem 0;
+}
+.divider {
+  background-color: #999999;
+  border: none;
+  height: 1px;
+  width: 100%;
+}
+.field-text {
+  box-sizing: border-box;
+  margin: 8px 8px;
+  padding: 12px 20px;
+  width: 60%;
+}
+.field-label {
+  display: block;
+  font-weight: bold;
+  width: 20%;
+}
